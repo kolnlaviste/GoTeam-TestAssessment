@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed, onMounted, watch } from 'vue'
+import { ref, onMounted, watch } from 'vue'
 import axios from 'axios'
 
 const tasks = ref<{ id: number; title: string; category: string; completed: boolean }[]>([])
